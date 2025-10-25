@@ -9,7 +9,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   try {
     const { name, description, goals, openRouterKey } = req.body;
 
-    if (!openRouterKey) {
+    // Use environment variable as fallback
+    const apiKey = openRouterKey || process.env.OPENROUTER_API_KEY;
+    
+    if (!apiKey) {
       return res.status(400).json({ error: 'OpenRouter API key is required' });
     }
 
@@ -17,7 +20,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       return res.status(400).json({ error: 'Description is required' });
     }
 
-    const openRouterService = new OpenRouterService(openRouterKey);
+    const openRouterService = new OpenRouterService(apiKey);
 
     // Create the agent with initial task
     const agentId = `agent_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
