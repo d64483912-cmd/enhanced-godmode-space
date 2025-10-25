@@ -24,7 +24,7 @@ import {
   AccordionIcon,
 } from "@chakra-ui/react";
 import { IAgent } from "./Agent";
-import { v4 as uuidv4 } from "uuid";
+
 import { URL } from "./constants";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { godmode_auth } from "./firebase";
