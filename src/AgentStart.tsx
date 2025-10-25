@@ -118,25 +118,49 @@ export const AgentStart = ({ setAgent }: { setAgent: (a: IAgent) => void }) => {
   );
 
   const callAgent = React.useCallback(
-    (event: Event) => {
+    async (event: Event) => {
       if (!agentName || !agentDescription || agentGoals.length < 1) {
         event.preventDefault();
         return;
       }
-      setAgent({
-        name: agentName,
-        description: agentDescription,
-        goals: agentGoals.filter((g) => g.trim().length > 0),
-        id: uuidv4(),
-        assistantReply: "",
-        thoughts: null,
-        command: "###start###",
-        args: "",
-        output: [],
-        tasks: [],
-      });
+
+      try {
+        const response = await fetch(URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            ...(user
+              ? { Authorization: `Bearer ${await user.getIdToken(true)}` }
+              : {}),
+          },
+          body: JSON.stringify({
+            name: agentName,
+            description: agentDescription,
+            goals: agentGoals.filter((g) => g.trim().length > 0),
+            openRouterKey: settings.openRouterKey || process.env.NEXT_PUBLIC_OPENROUTER_API_KEY,
+          }),
+        });
+
+        if (!response.ok) {
+          const error = await response.json().catch(() => ({ error: "Unknown error" }));
+          throw new Error(error.error || `HTTP ${response.status}`);
+        }
+
+        const agent = await response.json();
+        setAgent(agent);
+      } catch (error) {
+        console.error("Agent creation error:", error);
+        toast({
+          title: "Error",
+          description: error instanceof Error ? error.message : "Failed to create agent",
+          status: "error",
+          variant: "subtle",
+          duration: 5000,
+          isClosable: true,
+        });
+      }
     },
-    [agentName, agentDescription, agentGoals, setAgent]
+    [agentName, agentDescription, agentGoals, setAgent, settings.openRouterKey, user, toast]
   );
 
   const debouncedDescription = useDebounce(agentDescription, 500);
@@ -158,7 +182,7 @@ export const AgentStart = ({ setAgent }: { setAgent: (a: IAgent) => void }) => {
     try {
       (async () => {
         try {
-          const data = await fetch(URL + "-goal-subgoals", {
+          const data = await fetch(URL + "/goal-subgoals", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -167,12 +191,8 @@ export const AgentStart = ({ setAgent }: { setAgent: (a: IAgent) => void }) => {
                 : {}),
             },
             body: JSON.stringify({
-              ...(settings.openAIKey ? { openai_key: settings.openAIKey } : {}),
-              ...(settings.openRouterKey ? { openrouter_key: settings.openRouterKey } : {}),
-              use_openrouter: settings.useOpenRouter,
-              selected_provider: settings.selectedProvider,
-              model: settings.gptModel,
-              goal: debouncedDescription,
+              description: debouncedDescription,
+              openRouterKey: settings.openRouterKey || process.env.NEXT_PUBLIC_OPENROUTER_API_KEY,
             }),
           }).then(async (r) => {
             if (r.status >= 200 && r.status < 400) return r.json();
@@ -194,12 +214,7 @@ export const AgentStart = ({ setAgent }: { setAgent: (a: IAgent) => void }) => {
               else throw new Error(await r.text());
             }
           });
-          setExampleSubgoals(
-            data.subgoals
-              .split("\n")
-              .map((a: string) => a.trim().replace(/^\d+\.\s*/, ""))
-              .filter((a: string) => a.length > 0)
-          );
+          setExampleSubgoals(data.subgoals || []);
         } catch (e) {
           if (e instanceof Error) {
             console.error(e);
