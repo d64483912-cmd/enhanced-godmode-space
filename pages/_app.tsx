@@ -6,6 +6,7 @@ import {
   ThemeConfig,
   ColorModeScript,
 } from "@chakra-ui/react";
+// Force deployment refresh - API routes enabled
 import { ISettings } from "../src/Agent";
 import SettingsModalContext from "../src/SettingsModalContext";
 import LoginModal from "../src/LoginModal";
