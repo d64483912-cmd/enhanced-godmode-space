@@ -117,6 +117,12 @@ export const AgentStart = ({ setAgent }: { setAgent: (a: IAgent) => void }) => {
     [agentGoals]
   );
 
+  const [user] = useAuthState(godmode_auth);
+  user?.getIdToken(true);
+
+  const { settings, setShowSettings } = useContext(SettingsModalContext);
+  const toast = useToast();
+
   const callAgent = React.useCallback(
     async (event: Event) => {
       if (!agentName || !agentDescription || agentGoals.length < 1) {
@@ -170,12 +176,6 @@ export const AgentStart = ({ setAgent }: { setAgent: (a: IAgent) => void }) => {
   );
 
   const [showSubgoals, setShowSubgoals] = React.useState(false);
-
-  const [user] = useAuthState(godmode_auth);
-  user?.getIdToken(true);
-
-  const { settings, setShowSettings } = useContext(SettingsModalContext);
-  const toast = useToast();
 
   useEffect(() => {
     if (!showSubgoals || !debouncedDescription) return;
