@@ -1,0 +1,17 @@
+
+> godmode-enhanced@2.0.0 dev
+> next dev
+
+  ▲ Next.js 13.5.11
+  - Local:        http://localhost:12000
+
+ ✓ Ready in 1482ms
+ ○ Compiling /404 ...
+ ✓ Compiled /404 in 3.9s (1352 modules)
+Any thoughts or questions, reach out to @emilahlback on Twitter
+Do not add <script> tags using next/head (see inline <script>). Use next/script instead. 
+See more info here: https://nextjs.org/docs/messages/no-script-tags-in-head-component
+Do not add <script> tags using next/head (see <script> tag with src="https://www.googletagmanager.com/gtag/js?id=G-6NR5XNHL5B"). Use next/script instead. 
+See more info here: https://nextjs.org/docs/messages/no-script-tags-in-head-component
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[?25h

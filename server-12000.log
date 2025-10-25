@@ -1,0 +1,1113 @@
+
+> godmode-enhanced@2.0.0 dev
+> next dev
+
+  ▲ Next.js 13.5.11
+  - Local:        http://localhost:12000
+
+ ✓ Ready in 1218ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.8s (1348 modules)
+Any thoughts or questions, reach out to @emilahlback on Twitter
+Do not add <script> tags using next/head (see inline <script>). Use next/script instead. 
+See more info here: https://nextjs.org/docs/messages/no-script-tags-in-head-component
+Do not add <script> tags using next/head (see <script> tag with src="https://www.googletagmanager.com/gtag/js?id=G-6NR5XNHL5B"). Use next/script instead. 
+See more info here: https://nextjs.org/docs/messages/no-script-tags-in-head-component
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ ✓ Compiled /_error in 158ms (1350 modules)
+Any thoughts or questions, reach out to @emilahlback on Twitter
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+ ⨯ src/LoginModal.tsx (402:29) @ loading
+ ⨯ ReferenceError: loading is not defined
+    at LoginModal (webpack-internal:///./src/LoginModal.tsx:609:68)
+    at renderWithHooks (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderNode (/workspace/project/God/godmode-enhanced/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6270:12) {
+  page: '/'
+}
+[0m [90m 400 | [39m                  w[33m=[39m[32m"full"[39m[0m
+[0m [90m 401 | [39m                  onClick[33m=[39m{() [33m=>[39m signInWithGoogle()}[0m
+[0m[31m[1m>[22m[39m[90m 402 | [39m                  isLoading[33m=[39m{loading}[0m
+[0m [90m     | [39m                            [31m[1m^[22m[39m[0m
+[0m [90m 403 | [39m                  colorScheme[33m=[39m[32m"blue"[39m[0m
+[0m [90m 404 | [39m                  size[33m=[39m[32m"sm"[39m[0m
+[0m [90m 405 | [39m                [33m>[39m[0m
+ ✓ Compiled in 325ms (1350 modules)
+Any thoughts or questions, reach out to @emilahlback on Twitter
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[?25h
