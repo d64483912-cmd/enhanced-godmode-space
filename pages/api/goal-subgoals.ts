@@ -59,10 +59,10 @@ Example:
     // Parse the numbered list into an array
     const subgoals = content
       .split('\n')
-      .map(line => line.trim())
-      .filter(line => line.length > 0 && /^\d+\./.test(line))
-      .map(line => line.replace(/^\d+\.\s*/, '').trim())
-      .filter(goal => goal.length > 0);
+      .map((line: string) => line.trim())
+      .filter((line: string) => line.length > 0 && /^\d+\./.test(line))
+      .map((line: string) => line.replace(/^\d+\.\s*/, '').trim())
+      .filter((goal: string) => goal.length > 0);
 
     res.status(200).json({ subgoals });
   } catch (error) {
